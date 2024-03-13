@@ -91,11 +91,11 @@ option arguments:
 --gpu_id:             gpu device number (default: 0)
 --model:              model architecture: Conv-4, ResNet12 (default: conv4)
 --datasets:           datasets: miniimagenet, tieredimagenet, cifar-fs, MetaABF, MetaBTAF, MetaCIO (default: MetaABF)
---multi:			  Apply XB-MAML (store true)
---datasets_path:	  Datasets directory path
---checkpoint_path	  checkpoint directory path (default:./save/ckpt/)
+--multi:	      Apply XB-MAML (store true)
+--datasets_path:      Datasets directory path
+--checkpoint_path:    checkpoint directory path (default:./save/ckpt/)
 --version:            file version (default: 0)
---num_test:			  how many times to try test
+--num_test:           how many times to try test
 ```
 
 **you can check the details on ./utils/args.py**
