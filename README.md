@@ -9,7 +9,7 @@
 >
 > AISTATS 2024
 
-The paper will be uploaded soon.
+The paper will be released soon.
 
 
 
