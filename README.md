@@ -9,7 +9,7 @@
 >
 > AISTATS 2024
 
-Code and arxiv paper will be updated soon!
+The paper will be uploaded soon.
 
 
 
