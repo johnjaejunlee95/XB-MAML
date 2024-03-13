@@ -1,0 +1,4 @@
+*.ipynb
+*.sh
+__pycache__/
+# log/
