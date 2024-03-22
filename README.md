@@ -3,13 +3,12 @@
 
 
 
-> **XB-MAML: Learning Expandable Basis Parameters for Effective Meta-Learning with Wide Task Coverage**
+> **XB-MAML: Learning Expandable Basis Parameters for Effective Meta-Learning with Wide Task Coverage**  [[Paper]](https://arxiv.org/abs/2403.06768)
 >
 > Jae-Jun Lee, Sung Whan Yoon
 >
 > AISTATS 2024
 
-The paper will be released soon.
 
 
 
