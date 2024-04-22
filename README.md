@@ -120,12 +120,4 @@ option arguments:
 --datasets_path:      Datasets directory path
 --checkpoint_path:    checkpoint directory path (default:./save/ckpt/)
 --version:            file version (default: 0)
-<<<<<<< HEAD
---num_test:           how many times to try test
 ```
-
-**you can check the details on ./utils/args.py**
-=======
-```
-
->>>>>>> c5d29f3 (README.md updates)
