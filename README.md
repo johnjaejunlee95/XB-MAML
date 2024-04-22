@@ -10,6 +10,9 @@
 > AISTATS 2024
 
 
+## Overview of XB-MAML
+
+![alt text](https://github.com/johnjaejunlee95/XB-MAML/blob/main/save/images/XB-MAML_algorithm.svg?raw=true)
 
 
 ## Installation
@@ -51,13 +54,36 @@ Alternatively, if you prefer to download them individually, please use the follo
 #### Single Datasets (mini, tiered, CIFAR-FS)
 
 ```bash
-python train_meta.py --multi --temp_scaling 5 --batch_size 2 --update_step 3 --update_step_test 7 --update_lr 0.03 --regularizer 5e-4 --datasets miniimagenet --epoch 60000 --max_test_task 1000 --gpu_id 0
+python train_meta.py \
+--multi \
+--temp_scaling 5 \
+--batch_size 2 \
+--update_step 3 \
+--update_step_test 7 \
+--update_lr 0.03 \
+--regularizer 5e-4 \
+--datasets miniimagenet \
+--epoch 60000 \
+--max_test_task 1000 \
+--gpu_id 0
 ```
 
 #### Multiple Datasets (ABF, BTAF, CIO)
 
 ```bash
-python train_meta.py --multi --temp_scaling 8 --batch_size 2 --update_step 3 --update_step_test 7 --update_lr 0.05 --regularizer 1e-3 --datasets_path /your/own/path --datasets MetaABF --epoch 80000 --max_test_task 600 --gpu_id 0
+python train_meta.py \
+--multi \
+--temp_scaling 8 \
+--batch_size 2 \
+--update_step 3 \
+--update_step_test 7 \
+--update_lr 0.05 \
+--regularizer 1e-3 \
+--datasets_path /your/own/path \
+--datasets MetaABF \
+--epoch 80000 \
+--max_test_task 600 \
+--gpu_id 0
 ```
 
 
@@ -70,7 +96,7 @@ python test_meta.py --datasets_path /your/own/path --checkpoint_path ./save/ckpt
 
 
 
-### Arguments
+### Arguments (Details at args.py)
 
 ```
 option arguments:  
@@ -94,7 +120,12 @@ option arguments:
 --datasets_path:      Datasets directory path
 --checkpoint_path:    checkpoint directory path (default:./save/ckpt/)
 --version:            file version (default: 0)
+<<<<<<< HEAD
 --num_test:           how many times to try test
 ```
 
 **you can check the details on ./utils/args.py**
+=======
+```
+
+>>>>>>> c5d29f3 (README.md updates)
