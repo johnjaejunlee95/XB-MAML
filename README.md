@@ -49,6 +49,7 @@ Alternatively, if you prefer to download them individually, please use the follo
 
 ## Run
 
+
 ### Training
 
 #### Single Datasets (mini, tiered, CIFAR-FS)
@@ -87,7 +88,6 @@ python train_meta.py \
 ```
 
 
-
 ### Evaluation/Test
 
 ```bash
@@ -95,10 +95,9 @@ python test_meta.py --datasets_path /your/own/path --checkpoint_path ./save/ckpt
 ```
 
 
-
 ### Arguments (Details at args.py)
 
-```
+```bash
 option arguments:  
 --epochs:             epoch number (default: 60000)  
 --num_ways:           N-way (default: 5)  
@@ -120,4 +119,25 @@ option arguments:
 --datasets_path:      Datasets directory path
 --checkpoint_path:    checkpoint directory path (default:./save/ckpt/)
 --version:            file version (default: 0)
+```
+
+
+
+## Citation
+
+```bash
+@InProceedings{pmlr-v238-lee24b,
+  title = 	 { {XB-MAML}: Learning Expandable Basis Parameters for Effective Meta-Learning with Wide Task Coverage },
+  author =       {Lee, Jae-Jun and Sung Whan, Yoon},
+  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {3196--3204},
+  year = 	 {2024},
+  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
+  volume = 	 {238},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {02--04 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v238/lee24b/lee24b.pdf},
+  url = 	 {https://proceedings.mlr.press/v238/lee24b.html}
+}
 ```
